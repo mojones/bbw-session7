@@ -1,0 +1,8 @@
+# set up some aliases
+alias h='echo "hello!"'
+alias cf='echo "Number of sequences in fasta files:" && grep -c ">" *.fasta'
+alias p='sudo -u postgres psql postgres'
+alias dus='du -h --max-depth=1'
+
+# set the prompt
+PS1='\d \t \u@\H:'
